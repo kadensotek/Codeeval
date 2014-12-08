@@ -1,0 +1,25 @@
+apply plugin: 'java'
+
+version = '1.0'
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Text Dollar',
+                'Implementation-Version': version,
+                'Main-Class': 'com.rrj09832.textdollar.TextDollar'
+    }
+}
+
+
+repositories {
+    mavenCentral()
+}
+
+sourceSets {
+    main.java.srcDir "src/main"
+    test.java.srcDir "src/test"
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
