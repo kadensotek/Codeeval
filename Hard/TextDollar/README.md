@@ -9,7 +9,7 @@ To build, from project root directory:
 > gradle build
 
 To run, from project root directory:
-> java -jar build/libs/TextDollar-1.0.jar <filename>
+> java -jar build/libs/TextDollar-1.0.jar \<filename>
 
 Example usage: the included text file, resources/test.txt, can be run using the following command:
 > java -jar build/libs/TextDollar-1.0.jar resources/test.txt
