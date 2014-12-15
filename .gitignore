@@ -1,7 +1,5 @@
 *.class
 *.jar
 
-Hard/TextDollar/.idea/workspace.xml
-Hard/TextDollar/.gradle
-Medium/InterruptedBubbleSort/.idea/workspace.xml
-Medium/InterruptedBubbleSort/.gradle.
+*/workspace.xml
+*/.gradle
